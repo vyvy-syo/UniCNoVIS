@@ -59,13 +59,13 @@ local Settings, Celex, Luas, Visuals, Math, Color, GunsTable, ModPowers = {
         ['HitParts'] = {"Head", "Torso", "Arms", "Legs"}, -- Head, Torso, Arms, Legs
         ['HitPartType'] = "EEEw", -- "Nearest Part", "Nearest Point"
 
-        ['Visualizer'] = true,
+        ['Visualizer'] = false,
         ['Visualizer_DOT'] = {
-            ['Enabled'] = true, 
+            ['Enabled'] = false, 
             ['Color'] = Color3.fromRGB(0,21,209)
         },
         ['Visualizer_Tracer'] = {
-            ['Enabled'] = true, 
+            ['Enabled'] = false, 
             ['Thickness'] = 0.5, 
             ['Color'] = Color3.fromRGB(0,21,209)
         },
